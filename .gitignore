@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Uploaded audio files (users will add their own)
+uploads/*
+!uploads/.gitkeep
+
+# Playlist data (generated at runtime)
+playlists/*
+!playlists/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache
+.npm
+
+# Build outputs
+dist/
+build/

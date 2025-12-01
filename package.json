@@ -1,0 +1,21 @@
+{
+  "name": "radio-station",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.0",
+    "multer": "^2.0.2",
+    "music-metadata": "^11.10.3",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
+  }
+}
